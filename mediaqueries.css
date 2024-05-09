@@ -1,0 +1,32 @@
+@media (width <= 600px) { /*Celulares*/
+   
+    .container {
+        width: ;
+    }
+    .container-box {
+        width:;
+    }
+    .container-menu {
+        width: 70%;
+    }
+    .container-main-content {
+        width:;
+    }
+    .asidebar {
+        width:;
+    
+    }
+    .article-container {
+        width: ;
+    }
+    .asidebar {
+        width: ;
+    }
+    .sidebar {
+        width: ;
+        
+    }
+    img {
+        width: ;
+    }
+}
