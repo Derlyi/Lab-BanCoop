@@ -1,97 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
     <title>Bancoop</title>
 </head>
 <body>
-    <header>
-    <div class="container">
+    <div class="header">
+        <div class="titulo">
         <h1>BANCOOP</h1>
-            <h2 class="titulo2">Te ayuda a alcanzar tus metas</h2>
+        <h3>Te ayuda a alcanzar tus metas</h3>
     </div>
-    </header>
-    <nav class="container-box">
-        <div class="container-menu">
-    <ul>
-        <li><b>.Créditos.</b></li>
-        <li><b>.leasing.</b></li>
-        <li><b>.Ahorros.</b></li>
-         <li><b>.Servicio al cliente.</b></li>
-     </ul>
-        </div>
+        <img src="img/mapa.png" alt="logo">
+    </div>
+    <div class="line">
+    </div>
+    <nav class="conteiner-box">
+    <div class="conteiner-menu">
+        <ul>
+          <li><a href="servicios.html"><b>.Creditos.</b></a></li>
+          <hr>
+          <li><a href="productos.html"><b>.Leasing.</b></a></li>
+          <hr>
+          <li><a href="guarderia.html"><b>.Ahorros.</b></a></li>
+          <hr>
+          <li><a href="promociones.html"><b>.Servicio al cliente.</b></a></li>
+        </ul>
     </nav>
-    <div class="container-one">
-    <div class="asidebar">
-    <aside class="sidebar">
-    <h3>INGRESA A TU CUENTA</h3> 
-        <form action="/submit_appointment" method="post">
-            <label for="account">Cuenta:</label>
-            <input type="text" id="account" name="account">
-            <label for="type">Tipo:</label>
-            <input type="text" id="type" name="type">
-            <label for="clave">Clave:</label>
-            <input type="password" id="clave" name="clave">
-            <button type="submit">Ingresar</button>
-        </form>
-    </aside>
-    </div>
-    <div class="div-sidebar">
-        <h3 class="titulo3">TRANSACCIONES</h3>
-    <ul>
-        <li>Banca personal</li>
-        <li>Banca empresarial</li>
-        <li>Banca seguros</li>
-        <li>Pago de facturas</li>
-    </ul>
-        <h3 class="titulo3">TARJETAS DE CRÉDITO</h3>
-    <ul>
-        <li>Credi Visa</li>
-        <li>Credi Mastercard</li>
-    </ul>
-    </div>
-</div>
-
-<div class="container-two">
-  <div class="div-container">
-    <h3 class="titulo4">SOLICITA NUESTROS PRODUCTOS</h3>
-    <img class="img" src="img/Img1.png" alt="tarjeta">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam laudantium voluptas molestias fuga. Repellat expedita tenetur laborum blanditiis autem quasi sint! Vero aliquid nisi quos illum nam pariatur obcaecati?</p>
- </div>
-
- <div class="div-container-box">
-    <h3 class="titulo5">CRÉDITO VEHICULOS</h3>
-    <img class="img" src="img/Img2.png" alt="llaves">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam laudantium voluptas molestias fuga. Repellat expedita tenetur laborum blanditiis autem quasi sint! Vero aliquid nisi quos illum nam pariatur obcaecati?</p>
- </div>
-
- <div class="div-container-rigth">
-    <h3 class="titulo6">AHORRO ESTUDIANTIL</h3>
-    <img class="img" src="img/Img3.png" alt="libros">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam laudantium voluptas molestias fuga. Repellat expedita tenetur laborum blanditiis autem quasi sint! Vero aliquid nisi quos illum nam pariatur obcaecati?</p>
- </div>
-
- <div class="div-container-rigth-bottom">
-    <h3 class="titulo5">CRÉDITO HIPOTECARIO</h3>
-    <img class="img" src="img/Img5.png" alt="casa">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam laudantium voluptas molestias fuga. Repellat expedita tenetur laborum blanditiis autem quasi sint! Vero aliquid nisi quos illum nam pariatur obcaecati?</p>
- </div>
-</div>
-        
-    <footer>
-            <div class="container">
-              <p class="pie"><b>Contáctenos</b>
-                <br>
-                <b>Línea gratuita 018000-00001</b>
-                <br>
-                <b>Banco entidad financiera - Todos los derechos reservados.</b>
-              </p>
-              </p>
+    <div class="conteiner-grid">
+        <div class="itemgrid1">
+            <div class="conteiner-tittle">
+                <p class="titulo">INGRESA A TU CUENTA</p>
             </div>
-    </footer>
+            <div class="form">
+                  <label for="name">CUENTA:</label>
+                  <input type="text" id="name" name="user_name" />
+                  <label for="name">TIPO:</label>
+                  <input type="text" id="name" name="user_name" />
+                  <label for="name">CLAVE:</label>
+                  <input type="text" id="name" name="user_name" />
+            </div>
+            <button class="formbutton">
+                INGRESAR
+            </button>
+        </div>
+        <div class="itemgrid1">
+            <div class="conteiner-tittle">
+                <p class="titulo">SOLICITA NUESTROS PRODUCTOS</p>
+            </div>
+            <img src="img/Img1.png" alt="tarjeta" width="120px">
+            <p>Lorem ipsum, dolor sit amet consec voluptate aut nulla quae eos necessitatibus alias, cupiditate nihil?</p>
+        </div>
+        <div class="itemgrid2">
+            <div class="conteiner-tittle2">
+                <p class="titulo">AHORRO ESTUDIANTIL</p>
+            </div>
+            <img src="img/Img3.png" alt="tarjeta" width="120px">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ipsum unde voluptate aut nulla quae eos necessitatibus alias, cupiditate nihil?</p>
+        </div>
+        <div class="itemgridmenu">
+            <div class="conteiner-tittle-menu">
+                <p>TRANSACCIONES</p>
+            </div>
+            <p>Banca Personal</p>
+            <p>Banca Empresarial</p>
+            <p>Banca Seguros</p>
+            <p>Pago De Facturas</p>
+            <div class="conteiner-tittle-menu">
+                <p>TARJETAS DE CREDITO</p>
+            </div>
+            <p>Credi Visa</p>
+            <p>Credi MasterCard</p>
+        </div>
+        <div class="itemgrid1">
+            <div class="conteiner-tittle">
+                <p>CREDITO VEHICULOS</p>
+            </div>
+            <img src="img/Img2.png" alt="tarjeta" width="120px">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ipsum unde voluptate aut nulla quae eos necessitatibus alias, cupiditate nihil?</p>
+        </div>
+        <div class="itemgrid2">
+            <div class="conteiner-tittle2">
+                <p>CREDITO HIPOTECARIO</p>
+            </div>
+            <img src="img/Img5.png" alt="tarjeta" width="120px">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo ipsum unde voluptate aut nulla quae eos necessitatibus alias, cupiditate nihil?</p>
+        </div>
     </div>
+    <footer>
+        <div class="footer">
+          <p class="pie">Contáctenos
+            <br>
+            Línea gratuita 018000-00001
+            <br>
+            Banco entidad financiera - todos los derechos reservados
+          </p>
+          </p>
+        </div>
+      </footer>
 </body>
 </html>
